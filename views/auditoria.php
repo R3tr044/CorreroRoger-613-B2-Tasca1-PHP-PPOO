@@ -1,0 +1,1 @@
+<?php require __DIR__ . '/layout.php'; ?><h1>Auditoria</h1><?php foreach($biblioteca->getMaterials() as $m): ?><h2><?= htmlspecialchars($m->getTitol()) ?></h2><ul><?php foreach($m->obtenirHistorial() as $a): ?><li><?= htmlspecialchars(implode(' - ', $a)) ?></li><?php endforeach; ?></ul><?php endforeach; ?></main></body></html>

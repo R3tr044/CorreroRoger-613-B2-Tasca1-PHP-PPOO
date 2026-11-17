@@ -1,0 +1,3 @@
+<!doctype html><html lang="ca"><head><meta charset="utf-8"><title>Biblioteca</title>
+<style>body{font-family:Arial;max-width:1000px;margin:2em auto}nav a{margin-right:1em}table{border-collapse:collapse;width:100%}td,th{border:1px solid #bbb;padding:.4em}.error{color:#a00}</style></head><body>
+<nav><a href="index.php">Inici</a><a href="index.php?page=materials">Materials</a><a href="index.php?page=usuaris">Usuaris</a><a href="index.php?page=prestecs">Préstecs</a><a href="index.php?page=reserves">Reserves</a><a href="index.php?page=estadistiques">Estadístiques</a><a href="index.php?page=auditoria">Auditoria</a></nav><hr><main>

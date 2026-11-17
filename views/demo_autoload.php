@@ -1,0 +1,1 @@
+<?php require __DIR__ . '/layout.php'; ?><h1>Autoloading</h1><ul><?php foreach (get_declared_classes() as $classe) if (str_starts_with($classe, 'App\\')): ?><li><?= htmlspecialchars($classe) ?></li><?php endif; ?></ul></main></body></html>

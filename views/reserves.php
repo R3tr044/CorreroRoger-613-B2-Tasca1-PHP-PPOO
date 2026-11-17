@@ -1,0 +1,1 @@
+<?php require __DIR__ . '/layout.php'; ?><h1>Reserves</h1><ul><?php foreach ($biblioteca->llistarReserves() as $m): ?><li><?= htmlspecialchars((string)$m) ?> (<?= htmlspecialchars($m->getUsuariReserva()) ?>)</li><?php endforeach; ?></ul></main></body></html>
